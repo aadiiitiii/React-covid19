@@ -1,0 +1,44 @@
+.mcard{
+    width: 100%;
+    cursor: pointer;
+}
+
+.header{
+    width: 350px;
+}
+
+.header p{
+    width: 200px;
+}
+
+.tableData{
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    height: 100vh;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 80px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px 3px  ;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.bar{
+    width: 80%;
+    height: 5px;
+    position: absolute;
+    bottom: 10px;
+}
